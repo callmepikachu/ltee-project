@@ -27,3 +27,5 @@ Small text files that describe the data. They are committed to Git.
 Sample metadata adapted from Data Carpentry, Wrangling Genomics (CC BY 4.0),
 which draws on Tenaillon et al. 2016, Nature 536:165, doi:10.1038/nature18959.
 The sequencing runs are in BioProject PRJNA295606.
+
+The reads were trimmed and subsampled by Data Carpentry.
