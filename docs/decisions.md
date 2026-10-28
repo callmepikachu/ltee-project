@@ -1,3 +1,3 @@
 # Decision log
 
-- Variant filter: minimum read depth of 2 (the vcfutils.pl default in the Data Carpentry lesson).
+- Variant filter: minimum read depth of 10 (matches the mean depth of these data).
