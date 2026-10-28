@@ -73,3 +73,7 @@ results (`results/`) are rebuilt from the raw data by the project code and are
 not archived separately.
 
 Course project for CBIO7501, Fall 2026.
+
+## Get the data
+
+    pixi exec python scripts/download_data.py
