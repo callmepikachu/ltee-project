@@ -71,3 +71,5 @@ commands recorded in `metadata/sources.tsv` and verify them with
 `sha256sum -c metadata/checksums.sha256`. Derived data (`data/processed/`) and
 results (`results/`) are rebuilt from the raw data by the project code and are
 not archived separately.
+
+Course project for CBIO7501, Fall 2026.
