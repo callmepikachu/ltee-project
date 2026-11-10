@@ -32,3 +32,6 @@ reports/*_files/
 __pycache__/
 .DS_Store
 Thumbs.db
+
+# Rendered HTML (reports, notebooks, QC) is regenerated, never committed
+*.html
