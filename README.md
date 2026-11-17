@@ -77,3 +77,11 @@ Course project for CBIO7501, Fall 2026.
 ## Get the data
 
     pixi exec python scripts/download_data.py
+
+## Container
+
+Docker image built from pixi.lock: `docker build --platform linux/amd64 -f containers/Dockerfile --build-arg ENV_NAME=pipeline -t ltee-project:0.1.0 .`
+
+Run the pipeline in it with the project folder mounted: `docker run --rm --platform linux/amd64 -v "$PWD":/work -w /work ltee-project:0.1.0 bash scripts/run_variant_calling.sh`
+
+Image ID of the image that produced the results (2026-11-17): `sha256:a052a76234257f6bd8485d62eea8cab22da1cf4db5fa4ff0bb6103a6532e5c66`
